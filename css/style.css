@@ -1,0 +1,64 @@
+* {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+}
+
+.wrapper {
+  max-width: 1920px;
+  height: 100vh;
+  background-image: url("../img/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.container {
+  max-width: 960px;
+  margin-left: 360px;
+}
+.header {
+  padding-top: 46px;
+  margin-bottom: 100px;
+  display: flex;
+  align-items: flex-end;
+}
+img{
+  padding-top: 10px;
+}
+.header ul {
+  margin-bottom: 5px;
+  display: flex;
+}
+.header li {
+  list-style-type: none;
+}
+.header a {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 25px;
+} 
+
+.slider {
+  color: #fff;
+}
+.title {
+  font-size: 120px;
+  margin: 0;
+}
+.subtitle {
+  max-width: 674px;
+  font-size: 36px;
+}
+.slider li {
+  list-style-type: none;
+}
+.slider ul {
+  display: flex;
+}
+.slider button {
+  font-size: 0;
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+  border: none;
+  border-radius: 50%;
+}
